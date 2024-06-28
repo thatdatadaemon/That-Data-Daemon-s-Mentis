@@ -4,7 +4,8 @@ import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
     
-    "Tell me about forecast trueisms"
+    "Tell me about trueisms",
+    "Tell me about Logistic Supply change management?"
 ];
 
 const GPT4V_EXAMPLES: string[] = [
