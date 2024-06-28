@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
-import github from "../../assets/github.svg";
+import github from "../../assets/ASB-SVG.svg";
 
 import styles from "./Layout.module.css";
 
@@ -29,11 +29,11 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                <a href="https://asb.edu.my" target={"_blank"} title="Visit Asia School of Business">
                                     <img
-                                        src={github}
-                                        alt="Github logo"
-                                        aria-label="Link to github repository"
+                                        src={asblogo}
+                                        alt="ASB logo"
+                                        aria-label="Link to ASB Homepage"
                                         width="20px"
                                         height="20px"
                                         className={styles.githubLogo}
