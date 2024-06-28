@@ -14,20 +14,11 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>Dr Asad's Assistant | Ask away</h3>
+                        <h3 className={styles.headerTitle}>ASB Mentis</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
-                            <li>
-                                <NavLink to="/" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Chat
-                                </NavLink>
-                            </li>
-                            <li className={styles.headerNavLeftMargin}>
-                                <NavLink to="/qa" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Ask a question
-                                </NavLink>
-                            </li>
+                           
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://asb.edu.my" target={"_blank"} title="Visit Asia School of Business">
                                     <img
@@ -42,7 +33,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Azure OpenAI + AI Search</h4>
+                    <h4 className={styles.headerRightText}>Guiding your Journey</h4>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
