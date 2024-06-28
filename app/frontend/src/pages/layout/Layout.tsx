@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
-import github from "../../assets/ASB-SVG.svg";
+import ASB-SVG from "../../assets/ASB-SVG.svg";
 
 import styles from "./Layout.module.css";
 
