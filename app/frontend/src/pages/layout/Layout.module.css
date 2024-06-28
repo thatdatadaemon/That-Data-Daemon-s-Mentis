@@ -63,7 +63,7 @@
 
 .headerRightText {
     font-weight: normal;
-    font-size: 1.5rem; /* Match the font size with headerTitle */
+    font-size: 1.5rem; /* Matched the font size with headerTitle */
     margin-left: 40px;
 }
 
@@ -73,5 +73,5 @@
 }
 
 .githubLogo {
-    height: 50px; /* Increase the logo size for better visibility */
+    height: 50px; /* Increased the logo size for better visibility */
 }

@@ -10,7 +10,6 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <img src={ASBSVG} alt="ASB logo" className={styles.headerLogo} />
                         <h3 className={styles.headerTitle}>ASB Mentis</h3>
                     </Link>
                     <nav>
@@ -27,7 +26,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Guiding your Journey</h4>
+                    <h4 className={styles.headerRightText}>Knowledge on Tap</h4>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
@@ -38,3 +37,4 @@ const Layout = () => {
 };
 
 export default Layout;
+
