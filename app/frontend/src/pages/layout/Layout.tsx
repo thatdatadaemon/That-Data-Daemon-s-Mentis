@@ -1,6 +1,6 @@
 import { Outlet, NavLink, Link } from "react-router-dom";
 
-import ASB-SVG from "../../assets/ASB-SVG.svg";
+import ASBSVG from "../../assets/ASB-SVG.svg";
 
 import styles from "./Layout.module.css";
 
@@ -31,7 +31,7 @@ const Layout = () => {
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://asb.edu.my" target={"_blank"} title="Visit Asia School of Business">
                                     <img
-                                        src={asblogo}
+                                        src={ASBSVG}
                                         alt="ASB logo"
                                         aria-label="Link to ASB Homepage"
                                         width="20px"
