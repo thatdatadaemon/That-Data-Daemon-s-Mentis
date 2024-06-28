@@ -12,26 +12,25 @@
 .headerContainer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin-right: 12px;
-    margin-left: 12px;
+    justify-content: space-between; /* Use space-between to properly space the elements */
+    padding: 0 12px;
 }
 
 .headerTitleContainer {
     display: flex;
     align-items: center;
-    margin-right: 40px;
     color: #f2f2f2;
     text-decoration: none;
 }
 
 .headerLogo {
-    height: 40px;
+    height: 50px; /* Increase logo height */
 }
 
 .headerTitle {
     margin-left: 12px;
     font-weight: 600;
+    font-size: 1.5rem; /* Increase font size */
 }
 
 .headerNavList {
@@ -44,7 +43,6 @@
     color: #f2f2f2;
     text-decoration: none;
     opacity: 0.75;
-
     transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
     transition-duration: 500ms;
     transition-property: opacity;
@@ -65,6 +63,7 @@
 
 .headerRightText {
     font-weight: normal;
+    font-size: 1.5rem; /* Match the font size with headerTitle */
     margin-left: 40px;
 }
 
@@ -74,5 +73,5 @@
 }
 
 .githubLogo {
-    height: 20px;
+    height: 50px; /* Increase the logo size for better visibility */
 }
