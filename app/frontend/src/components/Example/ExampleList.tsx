@@ -4,7 +4,7 @@ import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
     
-    "Tell me about truismsn, give me brief description.",
+    "Can you give me a brief description of truisms?",
     "Tell me about Logistic Supply change management?"
 ];
 
