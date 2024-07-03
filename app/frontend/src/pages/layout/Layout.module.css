@@ -12,8 +12,9 @@
 .headerContainer {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Use space-between to properly space the elements */
+    justify-content: space-between;
     padding: 0 12px;
+    position: relative; /* Positioning context for centering */
 }
 
 .headerTitleContainer {
@@ -21,10 +22,17 @@
     align-items: center;
     color: #f2f2f2;
     text-decoration: none;
+    margin-right: auto; /* Align to the left */
 }
 
-.headerLogo {
-    height: 50px; /* Increase logo height */
+.headerLogoContainer {
+    position: absolute; /* Center the logo container */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.githubLogo {
+    height: 50px; /* Adjust the logo height as needed */
 }
 
 .headerTitle {
@@ -62,7 +70,7 @@
 }
 
 .headerRightTextContainer {
-    margin-left: auto;
+    margin-left: auto; /* Align to the right */
     padding-right: 12px; /* Adjust padding to match the left padding of header */
     display: flex;
     align-items: center;
@@ -73,12 +81,4 @@
     font-size: 1.5rem; /* Matched the font size with headerTitle */
 }
 
-.microsoftLogo {
-    height: 23px;
-    font-weight: 600;
-}
-
-.githubLogo {
-    height: 50px; /* Increased the logo size for better visibility */
-}
 

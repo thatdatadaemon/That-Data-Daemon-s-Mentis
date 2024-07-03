@@ -9,23 +9,19 @@ const Layout = () => {
         <div className={styles.layout}>
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
-                    <Link to="/" className={styles.headerTitleContainer}>
+                    <a href="/" className={styles.headerTitleContainer}>
                         <h3 className={styles.headerTitle}>ASB Mentis</h3>
-                    </Link>
-                    <nav>
-                        <ul className={styles.headerNavList}>
-                            <li className={styles.headerNavLeftMargin}>
-                                <a href="https://asb.edu.my" target={"_blank"} title="Visit Asia School of Business">
-                                    <img
-                                        src={ASBSVG}
-                                        alt="ASB logo"
-                                        aria-label="Link to ASB Homepage"
-                                        className={styles.githubLogo}
-                                    />
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
+                    </a>
+                    <div className={styles.headerLogoContainer}>
+                        <a href="https://asb.edu.my" target="_blank" rel="noopener noreferrer" title="Visit Asia School of Business">
+                            <img
+                                src={ASBSVG}
+                                alt="ASB logo"
+                                aria-label="Link to ASB Homepage"
+                                className={styles.githubLogo}
+                            />
+                        </a>
+                    </div>
                     <div className={styles.headerRightTextContainer}>
                         <h4 className={styles.headerRightText}>Knowledge on Tap</h4>
                         {useLogin && <LoginButton />}
