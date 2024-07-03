@@ -1,4 +1,4 @@
-import { Outlet, NavLink, Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import ASBSVG from "../../assets/ASB-SVG.svg";
 import styles from "./Layout.module.css";
 import { useLogin } from "../../authConfig";
@@ -26,8 +26,10 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Knowledge on Tap</h4>
-                    {useLogin && <LoginButton />}
+                    <div className={styles.headerRightTextContainer}>
+                        <h4 className={styles.headerRightText}>Knowledge on Tap</h4>
+                        {useLogin && <LoginButton />}
+                    </div>
                 </div>
             </header>
 
@@ -37,4 +39,5 @@ const Layout = () => {
 };
 
 export default Layout;
+
 

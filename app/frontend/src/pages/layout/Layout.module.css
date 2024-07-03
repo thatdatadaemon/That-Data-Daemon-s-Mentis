@@ -61,10 +61,16 @@
     margin-left: 20px;
 }
 
+.headerRightTextContainer {
+    margin-left: auto;
+    padding-right: 12px; /* Adjust padding to match the left padding of header */
+    display: flex;
+    align-items: center;
+}
+
 .headerRightText {
     font-weight: normal;
     font-size: 1.5rem; /* Matched the font size with headerTitle */
-    margin-left: 40px;
 }
 
 .microsoftLogo {
@@ -75,3 +81,4 @@
 .githubLogo {
     height: 50px; /* Increased the logo size for better visibility */
 }
+
