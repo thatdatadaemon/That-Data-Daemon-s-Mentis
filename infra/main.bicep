@@ -278,7 +278,7 @@ module backend 'core/host/appservice.bicep' = {
     appServicePlanId: appServicePlan.outputs.id
     runtimeName: 'python'
     runtimeVersion: '3.11'
-    appCommandLine: 'python3 -m gunicorn main:app'
+    appCommandLine: 'python3 -m gunicorn backend.main:app'
     scmDoBuildDuringDeployment: true
     managedIdentity: true
     virtualNetworkSubnetId: isolation.outputs.appSubnetId
