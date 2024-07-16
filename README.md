@@ -12,8 +12,26 @@ An app for the Retrieval-Augmented Generation pattern running in Azure, using Az
 - **Scalable**: Built to scale with Azure's robust infrastructure.
 
 
-- [Node.js](https://nodejs.org/)
-- [Azure Account](https://azure.microsoft.com/)
+Python
+60.7%
+ 
+TypeScript
+18.6%
+ 
+Bicep
+16.5%
+ 
+CSS
+1.7%
+ 
+PowerShell
+1.3%
+ 
+Shell
+1.1%
+ 
+HTML
+0.1%
 
 
 
